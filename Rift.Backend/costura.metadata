@@ -1,0 +1,7 @@
+costura.costura.dll.compressed|5.4.0.0|Costura, Version=5.4.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|621442FD00BE139730AD6552B4000B8971B579CE|4608
+costura.costura.pdb.compressed|||Costura.pdb|5348C05EF602A8191D20C05EC9A272DA4FC0010F|2608
+costura.microsoft.aspnetcore.jsonpatch.dll.compressed|5.0.8.0|Microsoft.AspNetCore.JsonPatch, Version=5.0.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60|Microsoft.AspNetCore.JsonPatch.dll|6760839AAEB3326DA246262221118191D6A26C85|54136
+costura.microsoft.aspnetcore.mvc.newtonsoftjson.dll.compressed|5.0.8.0|Microsoft.AspNetCore.Mvc.NewtonsoftJson, Version=5.0.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60|Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll|E280EAD469249EA3A4AEAB15B2AB199F34F8D4A4|62840
+costura.newtonsoft.json.dll.compressed|13.0.0.0|Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed|Newtonsoft.Json.dll|E3673D05D46F29E68241D4536BDDF18CDD0A913D|695336
+costura.newtonsoft.json.bson.dll.compressed|1.0.0.0|Newtonsoft.Json.Bson, Version=1.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed|Newtonsoft.Json.Bson.dll|0ED43A73F49E0DF7B2FA681A627CAD7E25074165|97720
+costura.newtonsoft.json.bson.pdb.compressed|||Newtonsoft.Json.Bson.pdb|464073D1DEC900944E00A1655BE0189766DA2B49|26968
