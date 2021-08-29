@@ -1,0 +1,26 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Style x:Key="RiftTextBox" TargetType="{x:Type TextBox}" BasedOn="{x:Null}">
+    <Setter Property="Control.Template">
+      <Setter.Value>
+        <ControlTemplate TargetType="{x:Type TextBox}">
+          <Border>
+            <FrameworkElement.Style>
+              <Style TargetType="{x:Type Border}">
+                <Setter Property="Border.Background" Value="#575b75"/>
+              </Style>
+            </FrameworkElement.Style>
+            <Grid Margin="1">
+              <FrameworkElement.Style>
+                <Style TargetType="{x:Type Grid}">
+                  <Setter Property="Panel.Background" Value="#3a3d4f"/>
+                </Style>
+              </FrameworkElement.Style>
+              <ScrollViewer x:Name="PART_ContentHost" SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}"/>
+            </Grid>
+          </Border>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+</ResourceDictionary>

@@ -1,0 +1,40 @@
+<Window x:Class="Rift.Frontend.Temp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Closing="MainWindow_OnClosing" Background="#282a36" Title="Rift" Height="450" Width="800"
+        MinHeight="348" MinWidth="584">
+  <Grid>
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+      <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock Text="Rift" Foreground="#fafafa" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold"/>
+        <TextBlock Text="in-game launcher" Foreground="#fafafa" HorizontalAlignment="Center" FontSize="15"/>
+      </StackPanel>
+      <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 50, 0, 0">
+        <TextBlock Text="Username" Foreground="#fafafa"/>
+        <TextBox TextChanged="UsernameBox_TextChanged" Name="UsernameBox" MaxLength="16" Width="210"
+                 Foreground="#fafafa" CaretBrush="#fafafa" Style="{StaticResource RiftTextBox}"/>
+      </StackPanel>
+      <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center"
+                  Margin="27, 10, 0, 0">
+        <TextBlock Text="Game location" Foreground="#fafafa"/>
+        <StackPanel Orientation="Horizontal">
+          <TextBox Name="PathBox" Width="210" Foreground="#fafafa" CaretBrush="#fafafa"
+                   Style="{StaticResource RiftTextBox}"/>
+          <Button Click="PathSelectionBtn_Click" Content="…" Width="24" Height="18" Margin="3, 0,0 ,0"
+                  Foreground="#fafafa" Style="{StaticResource RiftButton}"/>
+        </StackPanel>
+      </StackPanel>
+      <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0, 50, 0, 0">
+        <TextBlock Text="Ready to play?" Foreground="#fafafa" Opacity="0.4" HorizontalAlignment="Center"
+                   Padding="0, 0, 0, 5"/>
+        <Button Click="PlayButton_Click" Content="PLAY!" Width="90" Height="33" Foreground="#fafafa"
+                Style="{StaticResource RiftButton}"/>
+      </StackPanel>
+    </StackPanel>
+    <TextBlock MouseDown="Watermark_OnMouseDown" Text="rift-launcher+prod-2.0.0.0" VerticalAlignment="Bottom"
+               HorizontalAlignment="Left" Opacity="0.2" Foreground="#fafafa" Padding="6"
+               TextDecorations="Underline" Cursor="Hand"/>
+  </Grid>
+</Window>

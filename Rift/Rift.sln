@@ -1,0 +1,20 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rift", "Rift.csproj", "{7D941A87-7B07-472F-926D-68C4E08E8CEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D941A87-7B07-472F-926D-68C4E08E8CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D941A87-7B07-472F-926D-68C4E08E8CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D941A87-7B07-472F-926D-68C4E08E8CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D941A87-7B07-472F-926D-68C4E08E8CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
